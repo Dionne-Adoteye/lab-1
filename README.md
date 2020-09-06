@@ -1,5 +1,8 @@
 # Dionne Adoteye
 
+# Link to Website
+https://dionne-adoteye.github.io/lab-1/
+
 # Lab-1 Git Repository Seed
 
 This file is the template for the first lab in Ashesi Web Development 2020.
