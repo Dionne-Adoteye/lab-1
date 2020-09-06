@@ -1,0 +1,145 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.nav {
+    background-color: rgb(32, 31, 31);
+    color: rgba(248, 240, 240, 0.89);
+    padding-top: 0px;
+
+}
+
+.heading {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 3rem;
+
+}
+
+.serve {
+    font-family: 'Merriweather', serif;
+    font-size: 4.5rem;
+    text-align: center;
+
+}
+
+.service {
+    font-family: 'Merriweather', serif;
+    font-size: 3.5rem;
+}
+
+.style {
+    background-color: rgba(248, 240, 240, 0.89);
+    color: black;
+    text-align: center;
+    padding: 0px 0px;
+    line-height: 1.6;
+}
+
+@media(min-width:468px) {
+    .intro {
+        text-align: center;
+        padding: 0px 8px;
+        font-size: 1.5rem;
+
+    }
+
+}
+
+
+.logo {
+    max-width: 100%;
+    display: block;
+    padding-top: 2px;
+}
+
+@media(min-width:468px) {
+    .nav_list {
+        display: flex;
+        margin-right: 50px;
+        justify-content: space-evenly;
+        font-family: 'Merriweather', serif;
+        padding-top: 0;
+
+    }
+
+}
+
+
+.nav_item {
+    height: 20px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+
+.nav_item a {
+    color: rgba(248, 240, 240, 0.89);
+    text-decoration: none;
+    transition: color 0.5s;
+    border: 1px solid rgb(32, 31, 31);
+    padding: 0px 40px;
+
+}
+
+.nav_item a:hover {
+    border-bottom: 1px solid pink;
+}
+
+@media(min-width:468px) {
+    .course_list {
+        display: flex;
+        margin-right: 50px;
+        justify-content: space-evenly;
+        font-family: 'Merriweather', serif;
+    }
+
+
+}
+
+
+
+.course_list a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+    border: 1px solid rgba(248, 240, 240, 0.89);
+    padding: 0px 40px;
+}
+
+@media(min-width:468px) {
+    .social-list {
+        display: flex;
+        margin-right: 50px;
+        justify-content: center;
+        font-family: 'Merriweather', serif;
+        padding-bottom: 10px;
+    }
+
+}
+
+
+.social-list a {
+    color: rgba(248, 240, 240, 0.89);
+    text-decoration: none;
+    transition: color 0.5s;
+    border: 1px solid rgb(32, 31, 31);
+    padding: 0px 40px;
+}
+
+@media(min-width:468px) {
+    .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+}
+
+.works {
+    order: 2;
+    font-family: 'Merriweather', serif;
+    justify-content: space-between;
+}
+
+.last {
+    background-color: rgb(32, 31, 31);
+    color: rgba(248, 240, 240, 0.89);
+}
